@@ -23,6 +23,10 @@
 	padding: 0.5rem;
 }
 
+.form>input:focus {
+	outline: 1px solid #672280;
+}
+
 .form>* {
 	border-radius: 0.4rem;
 }
@@ -33,6 +37,11 @@
 	color: white;
 	font-size: 1rem;
 	border: 0;
+}
+
+.form>button:hover {
+	background: linear-gradient(90deg, #792897 1.18%, #b429e6 100%);
+	cursor: pointer;
 }
 
 .image {
